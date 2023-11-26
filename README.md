@@ -2,7 +2,7 @@
 
 ## Overview 
 
-This project involves creating a virtual enviroment with Windows Server 2022 and Windows 11, Setting up Active Directory and using Powershell scripts to automate the creation of multiple users.
+This project involves creating a virtual environment with Windows Server 2022 and Windows 11, setting up Active Directory and using PowerShell scripts to automate the creation of multiple users.
 
 ## Prerequisites
 
