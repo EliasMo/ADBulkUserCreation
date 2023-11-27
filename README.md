@@ -73,14 +73,25 @@ Once Windows Server 2022 ISO is installed , Create a DC virtual machine. Make su
 
 - Head onto Active Directory Users and Computers
 
+![VirtualBox_DC_27_11_2023_21_41_27](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/6640d6c5-29ab-4c2d-9199-12233b82045e)
+
 
 
   - Click on mydomain.com , New , Organizational Unit
 
+![Admins Creation](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/7a85ddc0-e1d6-4b7b-b174-054ff833afe2)
 
 
-  - Create new user for admin 
+  - Create admin role 
 
+
+![Create Admin role](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/2e9def82-cb94-4195-bfb5-90444a62f205)
+
+  - Log out and see if your Admin Account is working
+
+![Admin account login](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/5cb22b33-b211-4477-826b-4c3383b51b24)
+
+- Installing NAT/RAS
 
 
 
