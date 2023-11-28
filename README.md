@@ -162,5 +162,6 @@ The purpose of NAT/RAS is to allow the client Windows 11 to be in the private ne
 ![Authorize and Refresh](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/3f00f4db-d209-4eb7-9599-6d558a90b798)
 
 
+## Powershell  
 
 
