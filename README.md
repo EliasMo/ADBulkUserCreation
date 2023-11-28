@@ -93,8 +93,74 @@ Once Windows Server 2022 ISO is installed , Create a DC virtual machine. Make su
 
 - Installing NAT/RAS
 
+The purpose of NAT/RAS is to allow the client Windows 11 to be in the private network but still be able to access the internet through the domain controller.
 
-
-
+  - Go to Add roles and features
  
+![Roles and features](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/327336a7-2143-4fb3-86ec-6b428ba8f93f)
+
+  - Choose Remote access
+
+![Choose Remote Access](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/ebbdba3d-64c7-4594-bcff-3541e7a92dd3)
+
+  - Install routing
+
+![install routing](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/2e533666-eddd-4155-8398-ba1e5751196d)
+
+  - Head to tools, Routing and Remote Access 
+
+ ![Tools and Routing and Remote Access](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/a4453022-e502-4de3-ab9a-36dc4fae8105)
+
+ - Right click on DC (local) and click configure and enable routing and remote access
+   
+  ![Configure and enable routing and remote Access](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/7f826e66-8dce-4896-9c5d-8c7df8ec591a)
+
+  - choose Network address translation (NAT)
+
+![NAT](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/25212260-93cf-4cd7-b0cb-ba256d596262)
+
+  - Make sure you click on the Internet interface
+
+![Click on the internet interface](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/4fed0667-2ea7-48ab-bbdd-e79ade2bd37e)
+
+- Things should look like this so far:
+
+![So far](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/63a9c5eb-c406-497f-b6f0-4ca1d01f7145)
+
+- Now its time to set up a DHCP Server
+
+  - Go to Add roles and features
+
+![Roles and features](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/327336a7-2143-4fb3-86ec-6b428ba8f93f)
+
+  - Select DHCP Server
+
+![Select DCHP Server](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/e3485db5-8b1a-48f2-9880-209831aa5de2)
+
+  - Now go to tools, DHCP
+
+![Tools  DHCP](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/798b053a-859e-4797-b066-eb69f770119e)
+
+  - Select New Scope
+
+![New Scope](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/216027a9-052e-445f-bb96-782de2b03fa8)
+
+  - Create your range
+
+![Create your range](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/27037379-dd15-49a9-866f-efc5da937d11)
+
+  - Start & End IP addresses and Subnet mask
+
+![Start, End and SubnetMask](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/2072b2f1-ef22-4a67-a878-2ae7bae157d1)
+
+  - Entering in the Domain Controllers IP address
+
+![Entering in the DC IP address](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/cf53e891-57e8-4f10-b2dd-7be688796342)
+
+  - Authorize and Referesh the DHCP Server
+
+![Authorize and Refresh](https://github.com/EliasMo/Active-Directory-Bulk-User-Creation/assets/45215421/3f00f4db-d209-4eb7-9599-6d558a90b798)
+
+
+
 
