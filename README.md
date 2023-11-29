@@ -1,11 +1,19 @@
 # Active Directory Bulk User Creation
 
+**Note: Compatibility Warning for Windows 11**
+
+Before proceeding, it's important to note that there are known compatibility issues with running Windows 11 in the virtual environment created for this project. Windows 11 may not function properly within the VM, and certain features could be impacted.
+
+This guide primarily focuses on setting up Active Directory and automating user creation using PowerShell scripts on Windows Server 2022. If you encounter difficulties with Windows 11, please be aware that it might not work as expected in this specific configuration.
+
+Thank you for your understanding, and let's get started with the project!
+
+
 ## Overview 
 
 This project involves creating a virtual environment with Windows Server 2022 and Windows 11, setting up Active Directory and using PowerShell scripts to automate the creation of multiple users.
 
-If you want to watch a video, check out Josh Madakor's video here:
-https://www.youtube.com/watch?v=MHsI8hJmggI
+
 
 
 ## Prerequisites
