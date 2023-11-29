@@ -4,6 +4,10 @@
 
 This project involves creating a virtual environment with Windows Server 2022 and Windows 11, setting up Active Directory and using PowerShell scripts to automate the creation of multiple users.
 
+If you want to watch a video, check out Josh Madakor's video here:
+https://www.youtube.com/watch?v=MHsI8hJmggI
+
+
 ## Prerequisites
 
   - Virtualization software (e.g VirtualBox)
@@ -164,4 +168,44 @@ The purpose of NAT/RAS is to allow the client Windows 11 to be in the private ne
 
 ## Powershell  
 
+List of names to add:
 
+![names](https://github.com/EliasMo/ADBulkUserCreation/assets/45215421/c492a7f8-6064-4983-9536-932f9f9cdd4a)
+
+- Using the Script
+
+Navigate to the script directory
+
+![Script directory](https://github.com/EliasMo/ADBulkUserCreation/assets/45215421/3071252f-b8db-42d4-ac2b-cf36e0796203)
+
+- Click Play and Voilà!, USER CREATION!!!
+
+![User creation](https://github.com/EliasMo/ADBulkUserCreation/assets/45215421/d11bc8eb-6606-4d0e-96ff-700f0e9127ea)
+
+- Check active directory to see if it worked
+
+![Users](https://github.com/EliasMo/ADBulkUserCreation/assets/45215421/01ae7436-8fec-420f-8457-b57dd7204bba)
+
+- Use 'find' to look for yourself
+
+![me](https://github.com/EliasMo/ADBulkUserCreation/assets/45215421/dc088a86-7fec-4e57-bed9-580f192f78fb)
+
+
+** Client Windows 11 VM
+
+- Create your Client1 VM
+<img width="701" alt="image" src="https://github.com/EliasMo/ADBulkUserCreation/assets/45215421/0e4b903d-5a22-4449-a5f8-e0a2f69358b3">
+
+- Go to Network adapter 1
+Change Adapter 1 to Internal Network:
+
+<img width="575" alt="image" src="https://github.com/EliasMo/ADBulkUserCreation/assets/45215421/77af6117-f4b8-40f7-9fa8-e087821f7515">
+
+
+# Conclusion
+
+In conclusion, this project successfully achieved its main objective of creating a virtual environment with Windows Server 2022, setting up Active Directory, and automating user creation using PowerShell scripts. Unfortunately, Windows 11 compatibility issues with the virtual machine have been encountered, leading to the decision to conclude the project at this point.
+
+If you're interested in exploring further or encountering any issues, you can refer to Josh Madakor's video tutorial [here](https://www.youtube.com/watch?v=MHsI8hJmggI).
+
+Thank you for following along with this guide. Feel free to reach out if you have any questions or if there are additional topics you'd like to explore in future projects.
