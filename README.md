@@ -216,4 +216,6 @@ In conclusion, this project successfully achieved its main objective of creating
 
 If you're interested in exploring further or encountering any issues, you can refer to Josh Madakor's video tutorial [here](https://www.youtube.com/watch?v=MHsI8hJmggI).
 
+If you're interested in enhancing the security of your server, you may want to explore my new project on [Automated Firewall Rule Management with PowerShell on Windows Server 2022](https://github.com/EliasMo/FirewallRuleAuto).
+
 Thank you for following along with this guide. Feel free to reach out if you have any questions or if there are additional topics you'd like to explore in future projects.
